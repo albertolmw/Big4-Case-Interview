@@ -24,7 +24,7 @@ Metrics like accuracy, recall and AUC were calculated. In this case we have two 
 ![image](https://github.com/user-attachments/assets/02c4d2a2-dcec-48c1-bd7d-7c3423018b9d)
 
 ## 5. BOOSTING
-Depending on the answer of the client, we can improve the model, in this case I used GridSearchCV to try different parameters of the logistic regression to find the one with the best AUC value. Obtaining the following results:
+Depending on the answer of the client, we can improve the model, in this case I used GridSearchCV to try different parameters of the best model to find the one with the best AUC value. Obtaining the following results:
 
 ![image](https://github.com/user-attachments/assets/ede3b6d7-618c-4135-bdc5-fb604f60a8c2)
 
