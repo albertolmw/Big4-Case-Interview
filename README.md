@@ -1,7 +1,7 @@
 # Big4-Case-Interview
 This is an example of an interview for a data science position at a Big 4 company. Have fun!
 ## THE PROBLEM
-Telco is a Colombian Fintech related to telephony service. Its flagship product has been experiencing a higher churn rate, which would affect the company's revenue.
+Telco is a Colombian Fintech related with telecommunications services. Its flagship product has been experiencing a higher churn rate, which would affect the company's revenue.
 As a data scientist, you are requiered to develop a sistem to analyze churn prediction.
 ## Dictionary
 ![image](https://github.com/user-attachments/assets/af01b77a-90f8-4ac8-acb9-422b8faa8f8a)
