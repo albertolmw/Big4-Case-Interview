@@ -3,7 +3,7 @@ import pandas as pd
 import requests as rq
 st.title('First App')
 st.write('Hello World')
-path="https://github.com/albertolmw/DataScientist-Case-Interview/blob/main/Data.xlsx"
+path='https://github.com/albertolmw/DataScientist-Case-Interview/blob/main/Data.xlsx'
 datos=rq.get(path).content
 df1 = pd.read_excel(datos)
 #df2 = pd.read_excel(path, sheet_name='Other data')
