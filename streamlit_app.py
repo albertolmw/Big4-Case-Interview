@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
+import requests as rq
 st.title('First App')
 st.write('Hello World')
 path="https://github.com/albertolmw/DataScientist-Case-Interview/blob/main/Data.xlsx"
