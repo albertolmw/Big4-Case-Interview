@@ -10,8 +10,8 @@ st.title("Churn Prediction")
 
 def main():
     #Load data and model
-    data=pd.read_parquet("G:\\My Drive\\Downloads\\Downloads\\DMR Project ACCENTURE\\CODE\\data.parquet")
-    model=pickle.load(open("G:\\My Drive\\Downloads\\Downloads\\DMR Project ACCENTURE\\CODE\\best_model.pkl","rb"))
+    data=pd.read_parquet("**here put your directory**\\data.parquet")
+    model=pickle.load(open("**same**\\best_model.pkl","rb"))
 
     # Separate features and labels
     X = data.drop('Churn_Yes', axis=1)
