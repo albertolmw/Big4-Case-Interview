@@ -6,10 +6,22 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import RobustScaler
 
+'''
+This code was made in sustitution of the presentation, because the presentation depends on how do you present your results, there is no just one correct way to present, just be creative.
+But instead this code was made to present a quick deployment of the model created.
+Streamlit is open-source app framework. You can know more about in this link https://streamlit.io/#install
+There is some thinks that you need to know to be able to develop the streamlit proyect:
+1) Create an account on streamlit.
+2) Install it in your environment (in my case i am using Visual Studio Code).
+3) Read the documentation of streamlit.
+In this case I created this code just to prove and to show one of the many things that can be done in this amazing app.
+The page consist in two principal screens, first is "feature importante" and second "Predict Churn". This is just an hypotetical case because, the bottons of selection to insert a new customer was made quickly.
+'''
+
 st.title("Churn Prediction")
 
 def main():
-    #Load data and model
+    #Load data and model, you need to save the data and model used in Code to just import these variables. Data is a parquet file and model an pkl file.
     data=pd.read_parquet("**here put your directory**\\data.parquet")
     model=pickle.load(open("**same**\\best_model.pkl","rb"))
 
